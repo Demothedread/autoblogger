@@ -1,0 +1,46 @@
+{
+  "name": "autoblogger",
+  "version": "1.0.0",
+  "description": "Automated blog post generator",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fetch": "^1.1.0",
+    "glob": "^11.0.0",
+    "helmet": "^7.1.0",
+    "lru-cache": "^11.0.0",
+    "ngrok": "^5.0.0-beta.2",
+    "node-fetch": "^3.3.0",
+    "punycode": "^2.3.1",
+    "querystring": "^0.2.1",
+    "urlsearchparams": "^0.1.1",
+    "webflow-api": "^2.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddreadstar/autoblogger.git"
+  },
+  "keywords": [
+    "webflow",
+    "chatgpt",
+    "cms",
+    "blog",
+    "nodejs"
+  ],
+  "author": "pseudø arepo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "nodemon": "^2.0.18"
+  }
+}
